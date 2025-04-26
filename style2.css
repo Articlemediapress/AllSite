@@ -114,6 +114,7 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-size: 3rem;
     animation: flipInX 0.3s ease-out, flipOutX 0.3s ease-out 0,1s forwards; /* Flip animations for h1 */
+    text-align: center;
   }
   
   @keyframes flipInX {
