@@ -42,3 +42,7 @@ openPanelBtn.addEventListener('click', () => {
   sidePanel.classList.toggle('active');
 });
 
+document.getElementById('infoButton').addEventListener('click', function () {
+  const infoText = document.getElementById('infoText');
+  infoText.classList.toggle('visible');
+});

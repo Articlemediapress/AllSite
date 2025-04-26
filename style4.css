@@ -200,3 +200,25 @@
     }
   }
   
+  .info-text {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ccc;
+    display: none;
+    animation: fadeInX 0.4s ease forwards;
+  }
+  
+  .info-text.visible {
+    display: block;
+  }
+  
+  @keyframes fadeInX {
+    0% {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
