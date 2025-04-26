@@ -92,7 +92,7 @@
     color: white;
     padding: 20px;
     box-shadow: 2px 0 10px rgba(0, 0, 0, 0.3);
-    transform: translateX(-240px); /* Hide most of it, show button */
+    transform: translateX(-265px); /* Hide most of it, show button */
     transition: transform 0.3s ease;
     z-index: 999;
   }
