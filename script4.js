@@ -11,7 +11,7 @@ flightForm.addEventListener('submit', async (e) => {
   flightInfo.innerHTML = "Loading...";
 
   try {
-    const response = await fetch(`http://api.aviationstack.com/v1/flights?access_key=33e533939eae44ff184ce31be9c0028c&flight_iata=${flightNumber}`);
+    const response = await fetch(`http://api.aviationstack.com/v1/flights?access_key=f2d9846714b1b0d0312737370f5ac3bf&flight_iata=${flightNumber}`);
     const data = await response.json();
 
     if (data.data && data.data.length > 0) {
